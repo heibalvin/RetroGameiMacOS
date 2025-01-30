@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390BA6752D4BA4EF008C2721 /* BoxWorldGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BA6742D4BA4EF008C2721 /* BoxWorldGameScene.swift */; };
+		390BA6762D4BA4EF008C2721 /* BoxWorldGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390BA6742D4BA4EF008C2721 /* BoxWorldGameScene.swift */; };
 		397F1F502D4B70DC0023B695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397F1F4F2D4B70DC0023B695 /* AppDelegate.swift */; };
 		397F1F522D4B70DC0023B695 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397F1F512D4B70DC0023B695 /* GameViewController.swift */; };
 		397F1F552D4B70DC0023B695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397F1F532D4B70DC0023B695 /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		390BA6742D4BA4EF008C2721 /* BoxWorldGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxWorldGameScene.swift; sourceTree = "<group>"; };
+		390BA67F2D4BA7B5008C2721 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		397F1F442D4B70D80023B695 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		397F1F452D4B70D80023B695 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		397F1F462D4B70D80023B695 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -62,6 +66,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		390BA6732D4BA4D0008C2721 /* BoxWorld */ = {
+			isa = PBXGroup;
+			children = (
+				390BA6742D4BA4EF008C2721 /* BoxWorldGameScene.swift */,
+				390BA67F2D4BA7B5008C2721 /* README.md */,
+			);
+			path = BoxWorld;
+			sourceTree = "<group>";
+		};
+		390BA67E2D4BA5C1008C2721 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				397F1F442D4B70D80023B695 /* Actions.sks */,
+				397F1F452D4B70D80023B695 /* GameScene.sks */,
+				397F1F462D4B70D80023B695 /* GameScene.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
 		397F1F3E2D4B70D70023B695 = {
 			isa = PBXGroup;
 			children = (
@@ -76,9 +99,8 @@
 		397F1F432D4B70D80023B695 /* RetroGameiMacOS Shared */ = {
 			isa = PBXGroup;
 			children = (
-				397F1F442D4B70D80023B695 /* Actions.sks */,
-				397F1F452D4B70D80023B695 /* GameScene.sks */,
-				397F1F462D4B70D80023B695 /* GameScene.swift */,
+				390BA6732D4BA4D0008C2721 /* BoxWorld */,
+				390BA67E2D4BA5C1008C2721 /* Default */,
 				397F1F472D4B70DC0023B695 /* Assets.xcassets */,
 			);
 			path = "RetroGameiMacOS Shared";
@@ -224,6 +246,7 @@
 				397F1F6D2D4B70DC0023B695 /* GameScene.swift in Sources */,
 				397F1F522D4B70DC0023B695 /* GameViewController.swift in Sources */,
 				397F1F502D4B70DC0023B695 /* AppDelegate.swift in Sources */,
+				390BA6752D4BA4EF008C2721 /* BoxWorldGameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +257,7 @@
 				397F1F6E2D4B70DC0023B695 /* GameScene.swift in Sources */,
 				397F1F632D4B70DC0023B695 /* GameViewController.swift in Sources */,
 				397F1F612D4B70DC0023B695 /* AppDelegate.swift in Sources */,
+				390BA6762D4BA4EF008C2721 /* BoxWorldGameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
