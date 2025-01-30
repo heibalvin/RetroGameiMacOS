@@ -41,6 +41,7 @@
 		397F1F652D4B70DC0023B695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		397F1F672D4B70DC0023B695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		397F1F682D4B70DC0023B695 /* RetroGameiMacOS_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RetroGameiMacOS_macOS.entitlements; sourceTree = "<group>"; };
+		397F1F7B2D4B71500023B695 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 		397F1F3E2D4B70D70023B695 = {
 			isa = PBXGroup;
 			children = (
+				397F1F7B2D4B71500023B695 /* README.md */,
 				397F1F432D4B70D80023B695 /* RetroGameiMacOS Shared */,
 				397F1F4E2D4B70DC0023B695 /* RetroGameiMacOS iOS */,
 				397F1F5F2D4B70DC0023B695 /* RetroGameiMacOS macOS */,
