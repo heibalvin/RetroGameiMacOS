@@ -24,6 +24,8 @@
 		397F1F6E2D4B70DC0023B695 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397F1F462D4B70D80023B695 /* GameScene.swift */; };
 		397F1F6F2D4B70DC0023B695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397F1F472D4B70DC0023B695 /* Assets.xcassets */; };
 		397F1F702D4B70DC0023B695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397F1F472D4B70DC0023B695 /* Assets.xcassets */; };
+		39804D6A2D4BC99D00EB43BB /* boxworld.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 39804D692D4BC99D00EB43BB /* boxworld.atlas */; };
+		39804D6B2D4BC99D00EB43BB /* boxworld.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 39804D692D4BC99D00EB43BB /* boxworld.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,7 @@
 		397F1F672D4B70DC0023B695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		397F1F682D4B70DC0023B695 /* RetroGameiMacOS_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RetroGameiMacOS_macOS.entitlements; sourceTree = "<group>"; };
 		397F1F7B2D4B71500023B695 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		39804D692D4BC99D00EB43BB /* boxworld.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = boxworld.atlas; path = ../../../../ASSETS/BoxWorld/boxworld.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		390BA6732D4BA4D0008C2721 /* BoxWorld */ = {
 			isa = PBXGroup;
 			children = (
+				39804D692D4BC99D00EB43BB /* boxworld.atlas */,
 				390BA6742D4BA4EF008C2721 /* BoxWorldGameScene.swift */,
 				390BA67F2D4BA7B5008C2721 /* README.md */,
 			);
@@ -221,6 +225,7 @@
 				397F1F552D4B70DC0023B695 /* Main.storyboard in Resources */,
 				397F1F692D4B70DC0023B695 /* Actions.sks in Resources */,
 				397F1F582D4B70DC0023B695 /* LaunchScreen.storyboard in Resources */,
+				39804D6A2D4BC99D00EB43BB /* boxworld.atlas in Resources */,
 				397F1F6F2D4B70DC0023B695 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39804D6B2D4BC99D00EB43BB /* boxworld.atlas in Resources */,
 				397F1F662D4B70DC0023B695 /* Main.storyboard in Resources */,
 				397F1F6C2D4B70DC0023B695 /* GameScene.sks in Resources */,
 				397F1F702D4B70DC0023B695 /* Assets.xcassets in Resources */,
